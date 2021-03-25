@@ -1,0 +1,21 @@
+{
+  "name": "stupidbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Thomas Mitchelmore <tommitchelmore@outlook.com> (https://tommitchelmore.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "format": "prettier ./src -w"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
